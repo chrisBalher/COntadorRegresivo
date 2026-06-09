@@ -1,0 +1,11 @@
+.countdown-wrap { padding: 2rem 0; text-align: center; }
+.countdown-label { font-size: 13px; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 0.5rem; }
+.countdown-title { font-size: 22px; font-weight: 500; margin-bottom: 0.25rem; }
+.countdown-subtitle { font-size: 14px; color: #888; margin-bottom: 2rem; }
+.countdown-grid { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 2rem; }
+.countdown-unit { background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.25rem 1rem; min-width: 80px; max-width: 120px; flex: 1; }
+.countdown-number { font-size: 36px; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
+.countdown-unit-label { font-size: 11px; color: #888; letter-spacing: 1px; text-transform: uppercase; margin-top: 6px; }
+.progress-bar-wrap { max-width: 400px; margin: 0 auto; }
+.progress-bar-bg { background: #f0f0f0; border-radius: 99px; height: 4px; overflow: hidden; }
+.progress-bar-fill { height: 4px; border-radius: 99px; background: #534AB7; transition: width 1s linear; }
