@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const fill = document.getElementById('progress-fill');
             if (fill) fill.style.width = '100%';
 
-            const note = document.getElementById('progress-note');
+            /*const note = document.getElementById('progress-note');
             if (note) note.textContent = '100% del camino recorrido ♡';
-            return;
+            return;*/
         }
 
         const days = Math.floor(diff / 86400000);
@@ -67,8 +67,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const fill = document.getElementById('progress-fill');
         if (fill) fill.style.width = pct + '%';
 
-        const note = document.getElementById('progress-note');
-        if (note) note.textContent = pct + '% del camino recorrido ♡';
+        /*const note = document.getElementById('progress-note');
+        if (note) note.textContent = pct + '% del camino recorrido ♡';*/
     }
 
     updateCountdown();
